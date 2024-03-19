@@ -6,7 +6,7 @@ const person = {
   },
 };
 
-export default function JavaScriptInJSXWithCurllyBracess() {
+export default function ChalangeOne() {
   return (
     <div style={person.theme}>
       <h1>{person.name} Todos</h1>
