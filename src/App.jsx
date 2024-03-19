@@ -1,8 +1,14 @@
+import Gallery, { Profile } from "./components/Gallery";
+
 function App() {
   return (
-    <div>
-      <p>Hello</p>
-    </div>
+    <>
+      {/* name expoet */}
+      <Profile />
+
+      {/* default Export */}
+      <Gallery />
+    </>
   );
 }
 
