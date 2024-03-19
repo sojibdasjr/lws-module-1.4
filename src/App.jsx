@@ -1,5 +1,6 @@
 import Bio from "./components/Bio";
 import Gallery, { Profile } from "./components/Gallery";
+import Styleing from "./components/Styleing";
 import Test from "./components/Test";
 import ToDoList from "./components/ToDoList";
 
@@ -20,6 +21,10 @@ function App() {
       {/* ToDulist Function Challenge */}
 
       <ToDoList />
+
+      {/* Styling IN JSX */}
+
+      <Styleing />
     </>
   );
 }
