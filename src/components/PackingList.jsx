@@ -19,3 +19,13 @@ export default function PackingList() {
     </section>
   );
 }
+
+// Note
+// const lang = "JavaScript1";
+// const result1 = lang && "javaScript"; // left side truthy hole right side return korbe, otherwise left site return korbe
+// const result2 = lang || "javaScript"; // left side falsy hole right side return korbe, otherwise left site return korbe
+
+// const result3 = lang ?? "javaScript"; // Nullish coalescing Operation: left side nullish (Null or Undefined) hole right side returnkorbe, otherwise left side return korbe
+// console.log(result1);
+// console.log(result2);
+// console.log(result3);
