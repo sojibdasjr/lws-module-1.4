@@ -28,7 +28,9 @@ const people = [
 ];
 
 const ListItem = () => {
-  const chemists = people.filter((chemist) => chemist.profession === "chemist");
+  const chemists = people.filter(
+    (chemist) => chemist.profession === "physicist"
+  );
   const listPeople = chemists.map((chemist) => <li>{chemist.name}</li>);
   return (
     <div>
