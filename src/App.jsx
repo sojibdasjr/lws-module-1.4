@@ -1,6 +1,7 @@
 import Bio from "./components/Bio";
 import Gallery, { Profile } from "./components/Gallery";
 import ChalangeThree from "./components/JavaScriptInJSXWithCurllyBracess/ChallengeThree";
+import ListItem from "./components/ListItem";
 import PackingList from "./components/PackingList";
 import Styleing from "./components/Styleing";
 import Test from "./components/Test";
@@ -31,6 +32,8 @@ function App() {
       <ChalangeThree />
 
       <PackingList />
+
+      <ListItem />
     </>
   );
 }
