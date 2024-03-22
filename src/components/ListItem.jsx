@@ -29,7 +29,7 @@ const people = [
 
 const ListItem = () => {
   const chemists = people.filter(
-    (chemist) => chemist.profession === "physicist"
+    (chemist) => chemist.profession === "astrophysicist"
   );
   const listPeople = chemists.map((chemist) => <li>{chemist.name}</li>);
   return (
